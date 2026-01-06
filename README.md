@@ -146,7 +146,7 @@ $$\text{Soil Temperature (°C)} = \text{Pixel Value} \times 0.01$$
 To ensure long-term accessibility and reproducibility, both the source code and the generated dataset have been archived in recognized repositories:
 
 -   **Dataset**: The generated 30-m daily soil temperature dataset (GeoTIFFs) is available on **ScienceDB** (DOI: `<ADD_DOI_HERE>`).
--   **Source Code**: The specific version of the code used in the manuscript is archived on **Zenodo** (DOI: `10.5281/zenodo.18160085`).
+-   **Source Code**: The specific version of the code used in the manuscript is archived on **Zenodo** (DOI: `10.5281/zenodo.18160086`).
 
 ---
 
@@ -170,4 +170,5 @@ If you have any questions regarding the code or the dataset, please feel free to
 
 **Haoze Zhang** <haoze_z@itpcas.ac.cn>
 **Pengfei Ma** (Corresponding Author) <mapengfei@itpcas.ac.cn>
+
 
