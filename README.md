@@ -1,5 +1,7 @@
 # A 30-m daily soil temperature dataset for alpine grasslands in central Tibetan Plateau during 2001–2024
 
+[![DOI](https://zenodo.org/badge/1128773793.svg)](https://doi.org/10.5281/zenodo.18160085)
+
 ## Overview
 
 This repository provides reproducible Google Earth Engine (GEE) and R workflows for generating a **30-m daily near-surface soil temperature (ST) dataset** for **alpine grasslands in the Nyainqentanglha Mountains, central Tibetan Plateau**, during **2001–2024**.
@@ -144,7 +146,7 @@ $$\text{Soil Temperature (°C)} = \text{Pixel Value} \times 0.01$$
 To ensure long-term accessibility and reproducibility, both the source code and the generated dataset have been archived in recognized repositories:
 
 -   **Dataset**: The generated 30-m daily soil temperature dataset (GeoTIFFs) is available on **ScienceDB** (DOI: `<ADD_DOI_HERE>`).
--   **Source Code**: The specific version of the code used in the manuscript is archived on **Zenodo** (DOI: `<ADD_DOI_HERE>`).
+-   **Source Code**: The specific version of the code used in the manuscript is archived on **Zenodo** (DOI: `10.5281/zenodo.18160085`).
 
 ---
 
@@ -168,3 +170,4 @@ If you have any questions regarding the code or the dataset, please feel free to
 
 **Haoze Zhang** <haoze_z@itpcas.ac.cn>
 **Pengfei Ma** (Corresponding Author) <mapengfei@itpcas.ac.cn>
+
