@@ -117,7 +117,7 @@ Use this method to reproduce the complete dataset (2001–2024).
 
 ## Output Dataset Specifications
 
-The full production workflow generates a total of **96 multiband GeoTIFF files** (24 years × 4 quarters), with a total dataset volume of approximately **119 GB** (averaging 1.2 GB per file).
+The full production workflow generates a total of **96 multiband GeoTIFF files** (24 years × 4 quarters), with a total dataset volume of approximately **120 GB** (averaging 1.25 GB per file).
 
 ### File Structure
 
@@ -127,9 +127,10 @@ The full production workflow generates a total of **96 multiband GeoTIFF files**
 
 ### Data Properties
 
--   **Data Type**: Signed 16-bit integers (`Int16`)
+-   **Data Type**: Signed 16-bit integer (`Int16`)
 -   **NoData Value**: -32768
--   **Unit**: 0.01 Degrees Celsius (°C)
+-   **Unit**: Degrees Celsius (°C)
+-   **Scale Factor**: 0.01
 
 ### Value Conversion
 
@@ -145,7 +146,7 @@ $$\text{Soil Temperature (°C)} = \text{Pixel Value} \times 0.01$$
 
 To ensure long-term accessibility and reproducibility, both the source code and the generated dataset have been archived in recognized repositories:
 
--   **Dataset**: The generated 30-m daily soil temperature dataset (GeoTIFFs) is available on **ScienceDB** (DOI: `<ADD_DOI_HERE>`).
+-   **Dataset**: The generated 30-m daily soil temperature dataset (GeoTIFFs) is available on **ScienceDB** (DOI: `10.57760/sciencedb.35212`) *Status: Unregistered / Under Review*.
 -   **Source Code**: The specific version of the code used in the manuscript is archived on **Zenodo** (DOI: `10.5281/zenodo.18160086`).
 
 ---
@@ -154,7 +155,7 @@ To ensure long-term accessibility and reproducibility, both the source code and 
 
 If you use this code or dataset, please cite the following paper:
 
-> Zhang, H., Ma, P., et al. (2024). A 30-m daily soil temperature dataset for alpine grasslands in central Tibetan Plateau during 2001–2024. *Scientific Data* (Submitted).
+> Zhang, H., Ma, P., et al. (2026). A 30-m daily soil temperature dataset for alpine grasslands in central Tibetan Plateau during 2001–2024. *Scientific Data* (Submitted).
 
 ---
 
@@ -168,7 +169,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 If you have any questions regarding the code or the dataset, please feel free to contact:
 
-**Haoze Zhang** <haoze_z@itpcas.ac.cn>
-**Pengfei Ma** (Corresponding Author) <mapengfei@itpcas.ac.cn>
+- **Haoze Zhang** <haoze_z@itpcas.ac.cn>
+- **Pengfei Ma** (Corresponding Author) <mapengfei@itpcas.ac.cn>
+
 
 
